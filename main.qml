@@ -21,7 +21,7 @@ ApplicationWindow {
         anchors.centerIn: parent
         startAngle: 30
         spanAngle: 300
-        dialWidth: 6
+        dialWidth: 4
         dialColor: "#4646FF"
 
         Image {
