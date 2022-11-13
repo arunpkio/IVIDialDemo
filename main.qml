@@ -26,7 +26,7 @@ ApplicationWindow {
 
         Image {
             id: needle
-            source: "qrc:/images/needle.png"
+            source: "qrc:/needle.png"
             anchors.centerIn: parent
             rotation: 39 + 30 + slider.value
             Behavior on rotation { SpringAnimation { spring: 2; damping: 0.2 } }
